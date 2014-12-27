@@ -14,6 +14,7 @@
 		B08318D71A4520F100888F2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08318D61A4520F100888F2F /* Images.xcassets */; };
 		B08318DA1A4520F100888F2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B08318D81A4520F100888F2F /* LaunchScreen.xib */; };
 		B08318E61A4520F100888F2F /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B08318E51A4520F100888F2F /* AttributorTests.m */; };
+		B0BF954C1A4A490100FD5406 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BF954B1A4A490100FD5406 /* TextStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B08318DF1A4520F100888F2F /* AttributorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08318E41A4520F100888F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B08318E51A4520F100888F2F /* AttributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorTests.m; sourceTree = "<group>"; };
+		B0BF954A1A4A490100FD5406 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		B0BF954B1A4A490100FD5406 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +84,14 @@
 		B08318C81A4520F100888F2F /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
-				B08318CD1A4520F100888F2F /* AppDelegate.h */,
-				B08318CE1A4520F100888F2F /* AppDelegate.m */,
 				B08318D01A4520F100888F2F /* ViewController.h */,
 				B08318D11A4520F100888F2F /* ViewController.m */,
 				B08318D31A4520F100888F2F /* Main.storyboard */,
 				B08318D61A4520F100888F2F /* Images.xcassets */,
 				B08318D81A4520F100888F2F /* LaunchScreen.xib */,
 				B08318C91A4520F100888F2F /* Supporting Files */,
+				B0BF954A1A4A490100FD5406 /* TextStatsViewController.h */,
+				B0BF954B1A4A490100FD5406 /* TextStatsViewController.m */,
 			);
 			path = Attributor;
 			sourceTree = "<group>";
@@ -96,6 +99,8 @@
 		B08318C91A4520F100888F2F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B08318CD1A4520F100888F2F /* AppDelegate.h */,
+				B08318CE1A4520F100888F2F /* AppDelegate.m */,
 				B08318CA1A4520F100888F2F /* Info.plist */,
 				B08318CB1A4520F100888F2F /* main.m */,
 			);
@@ -222,6 +227,7 @@
 				B08318D21A4520F100888F2F /* ViewController.m in Sources */,
 				B08318CF1A4520F100888F2F /* AppDelegate.m in Sources */,
 				B08318CC1A4520F100888F2F /* main.m in Sources */,
+				B0BF954C1A4A490100FD5406 /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +354,7 @@
 				INFOPLIST_FILE = Attributor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -358,6 +365,7 @@
 				INFOPLIST_FILE = Attributor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -414,6 +422,7 @@
 				B08318EB1A4520F100888F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B08318EC1A4520F100888F2F /* Build configuration list for PBXNativeTarget "AttributorTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				B08318EE1A4520F100888F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
